@@ -17,11 +17,11 @@ def validate_args(args):
 def main():
     parser = argparse.ArgumentParser(description="Binance Futures Trading Bot")
 
-    parser.add_argument("--symbol", required=True, help="e.g. BTCUSDT")
-    parser.add_argument("--side", required=True, help="BUY or SELL")
-    parser.add_argument("--type", required=True, help="MARKET or LIMIT")
-    parser.add_argument("--quantity", type=float, required=True)
-    parser.add_argument("--price", type=float, required=False)
+    parser.add_argument("symbol", required=True, help="e.g. BTCUSDT")
+    parser.add_argument("side", required=True, help="BUY or SELL")
+    parser.add_argument("type", required=True, help="MARKET or LIMIT")
+    parser.add_argument("quantity", type=float, required=True)
+    parser.add_argument("price", type=float, required=False)
 
     args = parser.parse_args()
 
