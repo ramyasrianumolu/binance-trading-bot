@@ -19,7 +19,9 @@ This is a simple Python trading bot that places orders on Binance Futures Testne
 2.Create a .env file and add your API keys:
 BINANCE_API_KEY=your_api_key
 BINANCE_API_SECRET=your_secret_key
+
 -> How to Run
+
 Market Order:
 python main.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
 
