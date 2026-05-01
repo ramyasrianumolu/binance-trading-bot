@@ -14,10 +14,12 @@ This is a simple Python trading bot that places orders on Binance Futures Testne
 ->Setup Instructions
 
 1. Install required packages:
-   pip install python-binance python-dotenv
+2. pip install python-binance python-dotenv
 
-2.Create a .env file and add your API keys:
+*Create a .env file and add your API keys:
+
 BINANCE_API_KEY=your_api_key
+
 BINANCE_API_SECRET=your_secret_key
 
 -> How to Run
